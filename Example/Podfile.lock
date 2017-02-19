@@ -1,7 +1,11 @@
 PODS:
+  - CTMediator (0.0.3)
   - Masonry (1.0.2)
-  - projectA (0.1.0):
+  - projectA (0.2.0):
     - Masonry
+    - projectB_Category
+  - projectB_Category (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
   - projectA (from `../`)
@@ -11,9 +15,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  projectA: 719b07cf347f1020b8f0c6070195213e747d3d79
+  projectA: 016b6f29ffa8aa3b2a00af19ba84cf26215d33cf
+  projectB_Category: b2d708e1a6955cc9f7388a25853c1e5af7b9d669
 
-PODFILE CHECKSUM: d9b53d08013bc917c648007c957aac5916ebd157
+PODFILE CHECKSUM: 636d06ab356d568bf60d5f29ad84d4dd85342ba5
 
 COCOAPODS: 1.1.1

@@ -84,10 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/CTMediator/CTMediator.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
   install_framework "$BUILT_PRODUCTS_DIR/projectA/projectA.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/projectB_Category/projectB_Category.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/CTMediator/CTMediator.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
   install_framework "$BUILT_PRODUCTS_DIR/projectA/projectA.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/projectB_Category/projectB_Category.framework"
 fi

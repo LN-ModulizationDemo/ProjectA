@@ -1,8 +1,10 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/LN-ModulizationDemo/PrivateRepo.git'
 use_frameworks!
-
 target 'projectA_Example' do
+    #  pod 'projectB_Category'
   pod 'projectA', :path => '../'
-
   target 'projectA_Tests' do
     inherit! :search_paths
 

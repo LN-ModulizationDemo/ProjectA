@@ -8,6 +8,7 @@
 
 #import "ProjectAViewController.h"
 #import "Masonry.h"
+#import "CTMediator+ProjectB.h"
 
 @interface ProjectAViewController ()
 
@@ -31,7 +32,8 @@
     // Do any additional setup after loading the view.
 }
 - (void)pushB{
-
+    UIViewController *BViewController = [[CTMediator sharedInstance] viewControllerB];
+    [self.navigationController pushViewController:BViewController animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

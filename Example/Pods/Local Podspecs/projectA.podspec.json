@@ -1,6 +1,6 @@
 {
   "name": "projectA",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A short description of projectA.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LN-ModulizationDemo/ProjectA",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LN-ModulizationDemo/ProjectA.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,6 +21,9 @@
   "source_files": "projectA/Classes/**/*",
   "dependencies": {
     "Masonry": [
+
+    ],
+    "projectB_Category": [
 
     ]
   }
