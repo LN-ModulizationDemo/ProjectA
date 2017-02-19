@@ -9,7 +9,7 @@
 #import "Target_A.h"
 #import "ProjectAViewController.h"
 @implementation Target_A
-- (UIViewController *)Action_viewController{
+- (UIViewController *)Action_viewController:(NSDictionary *)params{
     return [[ProjectAViewController alloc] init];
 }
 @end
