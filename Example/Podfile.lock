@@ -1,0 +1,19 @@
+PODS:
+  - Masonry (1.0.2)
+  - projectA (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - projectA (from `../`)
+
+EXTERNAL SOURCES:
+  projectA:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  projectA: 719b07cf347f1020b8f0c6070195213e747d3d79
+
+PODFILE CHECKSUM: d9b53d08013bc917c648007c957aac5916ebd157
+
+COCOAPODS: 1.1.1

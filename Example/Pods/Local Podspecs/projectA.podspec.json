@@ -1,0 +1,27 @@
+{
+  "name": "projectA",
+  "version": "0.1.0",
+  "summary": "A short description of projectA.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LN-ModulizationDemo/ProjectA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lennon": "lennon@memeboxglobal.com"
+  },
+  "source": {
+    "git": "https://github.com/LN-ModulizationDemo/ProjectA.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "projectA/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
