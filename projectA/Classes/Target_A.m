@@ -12,4 +12,11 @@
 - (UIViewController *)Action_viewController:(NSDictionary *)params{
     return [[ProjectAViewController alloc] init];
 }
+- (void)Action_share:(NSDictionary *)params{
+    NSDictionary *shareInfo = [params objectForKey:@"shareInfo"];
+
+    void (^callBack)(BOOL,NSString *) = [params objectForKey:@"callBack"];
+    
+    !callBack?:callBack(shareInfo?YES:NO,shareInfo?@"success":@"failure");
+}
 @end

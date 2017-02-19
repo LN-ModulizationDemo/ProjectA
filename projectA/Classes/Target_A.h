@@ -10,4 +10,5 @@
 
 @interface Target_A : NSObject
 - (UIViewController *)Action_viewController:(NSDictionary *)params;
+- (void)Action_share:(NSDictionary *)params;
 @end
